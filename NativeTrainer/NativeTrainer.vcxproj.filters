@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="script.cpp" />
+    <ClCompile Include="API\EntityObj.cpp" />
+    <ClCompile Include="API\PlayerObj.cpp" />
+    <ClCompile Include="API\VehicleObj.cpp" />
+    <ClCompile Include="API\PedObj.cpp" />
+    <ClCompile Include="API\UIHelper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="script.h" />
+    <ClInclude Include="..\..\inc\types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\enums.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\natives.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="API\EntityObj.h" />
+    <ClInclude Include="API\PlayerObj.h" />
+    <ClInclude Include="API\VehicleObj.h" />
+    <ClInclude Include="API\PedObj.h" />
+    <ClInclude Include="API\UIHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{fe82bd4a-2d14-486a-8be5-8bf6b50a2414}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
