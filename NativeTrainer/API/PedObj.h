@@ -23,15 +23,35 @@ public:
 
 	PedObj(Ped id);
 
+	/*
+		Creates a random ped at the specified coordinates.
+	*/
 	static void createRandomPed(float x, float y, float z);
+
+	/*
+		Creates a ped with the specified type, hash, coordinates and heading.
+	*/
 	static Ped createPed(int type, int pedHash, float x, float y, float z, float heading, bool networkHandle, bool returnPedHandle);
 
+	/*
+		Deletes the specified ped.
+	*/
 	static void deletePed(Ped *handle);
 	static float clonePed(int pid, float heading, bool networkHandle, bool createPedHandle);
 
+	/*
+		Warps this PedObj into the specified VehicleObj within the "index" seat.
+	*/
 	void setInVehicle(VehicleObj vehicle, int index);
 
+	/*
+		Returns the amount of money this ped has in its pockets.
+	*/
 	int getMoney();
+
+	/*
+		Sets the amount of money this ped has in its pockets.
+	*/
 	void setMoney(int money);
 
 	void addArmor(int amount);
@@ -141,7 +161,9 @@ public:
 	static bool groupExists(int groupId);
 	static bool isMemberOf(PedObj ped, int groupId);
 
-
+	/*
+		Returns the handle of this PedObj.
+	*/
 	Ped getHandle() { return pedId; }
 
 private:
