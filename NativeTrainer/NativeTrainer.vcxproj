@@ -12,6 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="API\EntityObj.cpp" />
+    <ClCompile Include="API\GroupObj.cpp" />
     <ClCompile Include="API\PedObj.cpp" />
     <ClCompile Include="API\PlayerObj.cpp" />
     <ClCompile Include="API\UIHelper.cpp" />
@@ -24,6 +25,7 @@
     <ClInclude Include="..\..\inc\natives.h" />
     <ClInclude Include="..\..\inc\types.h" />
     <ClInclude Include="API\EntityObj.h" />
+    <ClInclude Include="API\GroupObj.h" />
     <ClInclude Include="API\PedObj.h" />
     <ClInclude Include="API\PlayerObj.h" />
     <ClInclude Include="API\UIHelper.h" />

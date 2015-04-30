@@ -8,6 +8,7 @@
     <ClCompile Include="API\VehicleObj.cpp" />
     <ClCompile Include="API\PedObj.cpp" />
     <ClCompile Include="API\UIHelper.cpp" />
+    <ClCompile Include="API\GroupObj.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="script.h" />
@@ -25,6 +26,7 @@
     <ClInclude Include="API\VehicleObj.h" />
     <ClInclude Include="API\PedObj.h" />
     <ClInclude Include="API\UIHelper.h" />
+    <ClInclude Include="API\GroupObj.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
