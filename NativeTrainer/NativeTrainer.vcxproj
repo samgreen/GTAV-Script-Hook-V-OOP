@@ -12,7 +12,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="API\EntityObj.cpp" />
-    <ClCompile Include="API\GroupObj.cpp" />
     <ClCompile Include="API\PedObj.cpp" />
     <ClCompile Include="API\PlayerObj.cpp" />
     <ClCompile Include="API\UIHelper.cpp" />
@@ -31,6 +30,10 @@
     <ClInclude Include="API\UIHelper.h" />
     <ClInclude Include="API\VehicleObj.h" />
     <ClInclude Include="script.h" />
+    <ClInclude Include="ScriptHookSDK.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lib\ScriptHookV.lib" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8D82F34A-1D64-465B-84B1-37F89AD3D20B}</ProjectGuid>
@@ -86,7 +89,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalOptions>..\..\lib\ScriptHookV.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">

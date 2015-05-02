@@ -12,7 +12,7 @@ void UIHelper::addBlipForEntity(Entity entity)
 
 void UIHelper::addBlipForEntity(EntityObj entity)
 {
-	addBlipForEntity(EntityObj(entity).getHandle());
+	addBlipForEntity(entity.getHandle());
 }
 
 void UIHelper::clearWaypoint()

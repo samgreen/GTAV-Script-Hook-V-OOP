@@ -1,10 +1,11 @@
-#include "..\..\..\inc\natives.h"
-#include "..\..\..\inc\types.h"
-#include "..\..\..\inc\enums.h"
-
-#include "..\..\..\inc\main.h"
+#include "ScriptHookSDK.h"
 #include "EntityObj.h"
 #include "PedObj.h"
+
+#pragma once
+
+#ifndef PLAYER_HEADER
+#define PLAYER_HEADER
 
 
 class PlayerObj {
@@ -58,3 +59,5 @@ private:
 	Player playerId;
 
 };
+
+#endif

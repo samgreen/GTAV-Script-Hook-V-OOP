@@ -1,9 +1,10 @@
-#include "..\..\..\inc\natives.h"
-#include "..\..\..\inc\types.h"
-#include "..\..\..\inc\enums.h"
-
-#include "..\..\..\inc\main.h"
+#include "ScriptHookSDK.h"
 #include "VehicleObj.h"
+
+#pragma once
+
+#ifndef PED_HEADER
+#define PED_HEADER
 
 class PedObj {
 
@@ -11,15 +12,17 @@ public:
 
 	struct FacialAnimations {
 		char *name;
-	} textures[6] = {
-			{ "pain_1" },
-			{ "pain_2" },
-			{ "pain_3" },
-			{ "pain_4" },
-			{ "pain_5" },
-			{ "pain_6" },
-			{ "fail_face" }
 	};
+	
+	//const char *textures[7] = {
+	//		{ "pain_1" },
+	//		{ "pain_2" },
+	//		{ "pain_3" },
+	//		{ "pain_4" },
+	//		{ "pain_5" },
+	//		{ "pain_6" },
+	//		{ "fail_face" }
+	//};
 
 	PedObj(Ped id);
 
@@ -159,3 +162,5 @@ private:
 	Ped pedId;
 
 };
+
+#endif

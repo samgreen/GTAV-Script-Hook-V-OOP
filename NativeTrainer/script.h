@@ -6,11 +6,7 @@
 
 #pragma once
 
-#include "..\..\inc\natives.h"
-#include "..\..\inc\types.h"
-#include "..\..\inc\enums.h"
-
-#include "..\..\inc\main.h"
+#include "API\ScriptHookSDK.h"
 #include "API\VehicleObj.h"
 #include "API\PlayerObj.h"
 

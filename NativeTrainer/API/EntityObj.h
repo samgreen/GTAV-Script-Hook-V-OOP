@@ -1,8 +1,9 @@
-#include "..\..\..\inc\natives.h"
-#include "..\..\..\inc\types.h"
-#include "..\..\..\inc\enums.h"
+#include "ScriptHookSDK.h"
 
-#include "..\..\..\inc\main.h"
+#pragma once
+
+#ifndef ENTITY_HEADER
+#define ENTITY_HEADER
 
 class EntityObj {
 
@@ -61,3 +62,5 @@ private:
 	Entity entityId;
 
 };
+
+#endif

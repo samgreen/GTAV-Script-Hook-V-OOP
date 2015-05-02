@@ -1,8 +1,4 @@
-#include "..\..\..\inc\natives.h"
-#include "..\..\..\inc\types.h"
-#include "..\..\..\inc\enums.h"
-
-#include "..\..\..\inc\main.h"
+#include "ScriptHookSDK.h"
 
 #ifndef VEHICLE_HEADER
 #define VEHICLE_HEADER
