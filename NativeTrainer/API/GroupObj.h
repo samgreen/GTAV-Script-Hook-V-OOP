@@ -1,12 +1,9 @@
-#include "..\..\..\inc\natives.h"
-#include "..\..\..\inc\types.h"
-#include "..\..\..\inc\enums.h"
-
-#include "..\..\..\inc\main.h"
-#include "PedObj.h"
+#include "ScriptHookSDK.h"
 
 #include <list>
 #include <iostream>
+
+class PedObj;
 
 class GroupObj
 {

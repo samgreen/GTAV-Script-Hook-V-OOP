@@ -88,7 +88,7 @@ void PedObj::setArmor(int amount)
 
 int PedObj::getArmor()
 {
-	PED::GET_PED_ARMOUR(pedId);
+	return PED::GET_PED_ARMOUR(pedId);
 }
 
 

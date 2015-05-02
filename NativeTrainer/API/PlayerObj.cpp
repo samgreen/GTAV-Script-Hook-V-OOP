@@ -27,6 +27,7 @@ Any PlayerObj::getName() {
 int PlayerObj::getWantedLevelThreshold()
 {
 	// return PLAYER::GET_WANTED_LEVEL_THRESHOLD(playedId);
+	return -1;
 }
 
 PedObj PlayerObj::getPedScriptIndex() {
@@ -92,8 +93,6 @@ void PlayerObj::giveAchievement(int index)
 {
 	PLAYER::GIVE_ACHIEVEMENT_TO_PLAYER(index);
 }
-
-//
 
 bool PlayerObj::isRidingTrain() {
 	return PLAYER::IS_PLAYER_RIDING_TRAIN(playerId);

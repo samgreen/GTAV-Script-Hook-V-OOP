@@ -8,7 +8,6 @@
     <ClCompile Include="API\VehicleObj.cpp" />
     <ClCompile Include="API\PedObj.cpp" />
     <ClCompile Include="API\UIHelper.cpp" />
-    <ClCompile Include="API\GroupObj.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="script.h" />
@@ -27,10 +26,16 @@
     <ClInclude Include="API\PedObj.h" />
     <ClInclude Include="API\UIHelper.h" />
     <ClInclude Include="API\GroupObj.h" />
+    <ClInclude Include="ScriptHookSDK.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="include">
       <UniqueIdentifier>{fe82bd4a-2d14-486a-8be5-8bf6b50a2414}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lib\ScriptHookV.lib" />
   </ItemGroup>
 </Project>
